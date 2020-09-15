@@ -1,0 +1,55 @@
+ body p, a, li{
+	font-family:sans-serif;
+}
+
+.logo {
+ display:block;
+ margin: 0 auto; 
+}
+
+.ui-content{
+ padding-left:1em;
+}
+
+.propertyView{
+	width:100%;
+}
+
+.propertyIMG{
+ width:100%
+}
+
+.propertyPopup{
+	max-width:100%;
+	height:100%;
+}
+
+#popupPhoto1{
+  background-color:white;
+}
+#popupPhoto2{
+	background-color:white;
+}
+
+
+#addFav1{
+	background-color:green;
+    color:white;
+	width:110%;
+}
+ #addFav2{
+	background-color:green;
+    color:white;
+    width:110%;	
+}
+#deleteFav{
+	background-color:green;
+    color:black;
+	width:110%;
+}
+#removeParagraph{
+	color:white;
+}
+#removeFav{
+	display:none;
+}
