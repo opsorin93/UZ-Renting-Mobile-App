@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en" class="ui-mobile">
+<head>
+	<meta charset="utf-8">
+	<title>UZ Hosting</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/themes/UZRenting.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="script/theme.js"></script>
+	<script src="script/swipe.js"></script>
+	<script src="script/storage.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<!-- Main Page  -->
+<body>
+  <div data-role="page" id="home">
+     <div data-role="header">
+	    <h1>UZ Renting</h1>
+	 </div>
+     <div data-role="content" class="ui-content">
+	    <img src="img/logo.png" class="logo" alt="logo">		
+	    <ul data-role="listview" data-inset="true">
+			<li><a href=#boroughs data-transition="slidefade">Boroughts</a></li>
+			<li><a href=#rent data-transition="slidefade">Rent Price</a></li>
+			<li><a href="favorites.html">Favorites</a></li>
+			<li><a href=#register data-trasnsition="slidefade">Register</a></li>
+	    </ul>
+	 </div>
+	 
+     <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+</div>
+
+<!-- Boroughts page  -->
+<div data-role="page" id="boroughs" >
+      <div data-role="header">
+	    <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+          <h1>UZ Renting</h1>
+	  </div>	  
+        <div data-role="content" class="ui-content">		
+		  <ul data-role="listview" data-inset="true" data-filter="true" data-autodiverders ="true" data-filter-placeholder="Choose a city borough" class="sub">
+           <li><a href="barking.html" class="ui-btn">Barking and Dagenham </a></li>	
+		   <li><a href="void.html" class="ui-btn">Barnet </a></li>
+	       <li><a href="void.html" class=" ui-btn">Bexley </a></li>
+		   <li><a href="void.html" class=" ui-btn">Brent </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Bromley </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Camden </a></li>				 
+		   <li><a href="void.html" class=" ui-btn">City of London </a></li>
+	       <li><a href="void.html" class="ui-btn ">City of Westmister </a></li>
+		   <li><a href="void.html" class="ui-btn ">Croydon </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Ealing </a></li>
+		   <li><a href="void.html" class= "ui-btn ">Enfield </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Greenwich </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Hackney </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Hammersmith and Fulham </a></li>
+		   <li><a href="void.html" class=" ui-btn">Haringey </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Harrow </a></li>
+		   <li><a href="void.html" class=" ui-btn">Havering </a></li>
+		   <li><a href="void.html" class=" ui-btn">Hilingdon </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Hounslow </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Islington </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Kensigton and Chelsea </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Lambeth </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Lewisham  </a></li>
+		   <li><a href="void.html" class=" ui-btn ">Merton </a></li>
+	       <li><a href="void.html" class=" ui-btn ">Newham</a></li>
+    	   <li><a href="void.html" class=" ui-btn">Redbridge </a></li>
+	       <li><a href="void.html" class=" ui-btn">Richmond-upon-Thames </a></li>
+		   <li><a href="void.html" class=" ui-btn">Southwark </a></li>
+   	       <li><a href="void.html" class="ui-btn">Sutton </a></li>
+ 		   <li><a href="void.html" class="ui-btn">Tower Hamlets </a></li>
+ 		   <li><a href="void.html" class="ui-btn">Waltham Forest </a></li>
+		   <li><a href="void.html" class="ui-btn">Wandsworth </a></li>
+		  </ul>			    
+    </div>
+	
+	
+	<div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+	</div>
+
+
+<!-- FAQ page  -->
+<div data-role="page" id="FAQ">
+  <div data-role="header">
+	    <h1>UZ Renting</h1>
+		<a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+  </div>
+  <div data-role="content" class="ui-content">
+   <h3>FAQ</h3>
+   <div data-role="collapsible" data-collapsed="true">
+     <h3>Do I need to pay a deposit?</h3>
+	 <div>In order to rent a property you will have to pay a deposit in advance. The amount is usually the rent for 1 month of the respective property.</div> 
+   </div>
+   <div data-role="collapsible" data-collapsed="true">
+    <h3>What is the minimum rent period?</h3>
+    <div>The shortest period of time you can rent a property is 3 months</div>
+   </div>
+   <div data-role="collapsible" data-collapsed="true">
+    <h3>How long does it take to rent out a property?</h3>
+	<div>Depending on the specifics of your property and its location, property management companies can generally rent a house within 30-60 days.</div> 
+   </div>
+   <div data-role="collapsible" data-collapsed="true">
+    <h3>Can I book a viewing?</h3>
+	<div>Yes. Please contact us using the infomation available in the <a href="contact.html">contact</a> section and we will arrange one ASAP.</div>
+   </div>
+   <div data-role="collapsible" data-collapsed="true">
+    <h3>What are the office working hours?</h3>
+	<div>Our customer service is open from 9am to 5pm, Monday to Saturday.</div>
+   </div>
+   <div data-role="collapsible" data-collapsed="true">
+    <h3>What do I need in order to rent a property?</h3>
+	<div>Firstly you will need to register on the app and contact us. We wil be asking for a copy of your passport and confirmation of enrolment letter. After receving this information it can take us up to 3 working days to verify them.</div>
+   </div>
+   </div>
+   <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+	
+
+</div> 
+<!-- Login page  -->
+<div data-role="page" id="login">
+   <div data-role="header">
+   <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>   
+      <h1>UZ Renting</h1>
+   </div>
+   <div data-role="content" class="ui-content">
+       <h2>Login</h2>
+	   <p>Please enter your account details below</p>
+	   <form action="#" method="post" id="form1">
+	       <div class="ui-field-contain">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" data-mini="true">
+		   </div>
+	       <div class="ui-field-contain">
+				<label for="pass">Password:</label>
+	     		<input type="password" name="pass" id="pass" data-mini="true">
+		   </div>
+		   <div class="ui-field-contain"> 
+				<input type="submit" class="ui-btn" data-inline="true" value="Login" data-mini="true">
+		   </div>
+		</form> 
+      
+	 </div> 
+    <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>		
+	       
+</div>  
+<!-- Register Page    -->
+<div data-role="page" id="register">
+   <div data-role="header">
+   <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>   
+      <h1>UZ Renting</h1>
+   </div>
+   <div data-role="content" class="ui-content">
+       <h2>Register</h2>
+	   <p>Please complete the form below in order to create your account</p>
+	   <form action="#" method ="post" id="form2">
+	      <div class="ui-field-contain">
+			<label for="f_name">First Name</label>
+			<input type="text" name="f_name" id="f_name" data-mini="true">
+		  </div>
+		  <div class="ui-field-contain">
+			<label for="s_name">Second Name</label>
+			<input type="text" name="s_name" id="s_name" data-mini="true">
+		  </div>
+		  <div class="ui-field-contain">
+			<label for="student_no">Student Reference No:</label>
+			<input type="text" name="student_no" id="student_no" data-mini="true">
+		  </div>
+		   <div class="ui-field-contain">
+				<label for="select-programme" class="select">Choose your Programme</label>
+				<select name="select-programme" id="select-programme" data-native-menu="true">
+					<option value="CBSc">Computing (BSc)</option>
+					<option value="GBSC">Geology (BSc)</option>
+					<option value="LLB">Law (LLB)</option>
+					<option value="others">Others</option>
+				</select>
+			</div>
+			<div class="ui-field-contain">
+				<label>Start Date:</label>
+				<input type="date" data-role="date" data-inline="true">
+			</div>
+			<div class="ui-field-contain">
+			<fieldset data-role="controlgroup" data-type="horizontal">
+				<legend>Requires:</legend>
+					<input type="checkbox" name="flat" id="flat">
+					<label for="flat">Flat</label>
+					<input type="checkbox" name="house" id="house">
+					<label for="house">House</label>
+					<input type="checkbox" name="room" id="room">
+					<label for="room">Room</label>
+					<input type="checkbox" name="studio" id="studio">
+					<label for="studio">Studio</label>
+            </fieldset>				
+			</div>
+			<div class="ui-field-contain">
+				<label for="info">Additional information:</label>
+				<textarea id="info"></textarea>
+			</div>
+			<div class="ui-field-contain"> 
+				<input type="submit" class="ui-btn" data-inline="true" value="Submit" data-mini="true">
+		   </div>
+	  </form>
+	  
+	</div> 
+    <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+
+</div> 
+
+<!-- Rent Page -->	 
+	<div data-role="page" id="rent">
+      <div data-role="header">
+	    <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+          <h1>UZ Renting</h1>
+      </div>	  
+      <div data-role="content" class="ui-content">
+	     <h2>Choose the best price for you</h2>
+		 <div data-role="collapsible" data-collapsed="true">
+		 <h3>Over 1000£ pm</h3>
+            <a href=#property1 class="ui-btn">Lewis House</a>		 
+		 </div>
+		 <div data-role="collapsible" data-collapsed="true">
+		 <h3>Under 1000£ pm</h3>
+		    <a href=#property2 class="ui-btn">Chris House</a>
+			<a href="void.html" class="ui-btn">More to be added</a> 
+		 </div>
+	     <div data-role="collapsible" data-collapsed="true">
+		 <h3>Under 700£ pm</h3>
+            <p>No properties at this price available</p>		 
+		 </div>
+	</div>	 
+    <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+
+  </div>
+
+<!-- Property1 Page -->
+  <div data-role="page" id="property1">
+      <div data-role="header">
+	    <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+          <h1>UZ Renting</h1>
+      </div>	  
+      <div data-role="content" class="ui-content">
+	   <div class="propertyView"> 
+		  <a href="#popupPhoto1" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+		  <img src="img/p.JPG" alt="Lewis House" class="propertyIMG">
+		 </a> 
+	   </div> 
+	      <h3>Lewis House</h3>
+		  <p>1 Bedroom Flat<br>98 Abbey Road<br> London RM1 345</p>
+		  <p>1100£ pm</p>
+		  <a href =#addFav1 data-icon="star" data-rel="popup" data-role="button" data-position-to="window">Add To Favorites</a>
+
+	    <div data-role="popup" id="addFav1" data-rel="popup" onClick="addFavorites('Lewis House','property1')" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" class="ui-corner-all">
+          <p>Property added to Favorites</p>
+		  <a href="#" data-rel="back" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-corner-all" data-role="button">Close</a>
+        </div>
+
+		<div data-role="popup" id="popupPhoto1" class="photopopup" data-overlay-theme="b" data-corners="false" data-tolerance="30,15">
+	      <a href="#" data-rel="back" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-corner-all" data-role="button">Close</a>
+          <h3>Lewis House</h3>
+		  <img src="img/p.JPG" alt="Lewis House">
+           <p>Swipe for more pictures</p>		  
+		</div>
+	</div>
+   <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div> 
+</div>
+
+<!-- Property2 Page	 -->
+<div data-role="page" id="property2">
+      <div data-role="header">
+	    <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+          <h1>UZ Renting</h1>
+      </div>	  
+      <div data-role="content" class="ui-content">
+	    <div class="propertyView">
+		  <div class="propertyView"> 
+		  <a href="#popupPhoto2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+		  <img src="img/property2_1.JPG" alt="Lewis House" class="propertyIMG">
+		 </a> 
+	   </div>
+		</div>
+		  <h3>Chris House</h3>
+		  <p>Double Room <br>130 Mayfair Avenue<br> London RM3 676</p>
+		  <p>700£ pm</p>
+		  <a href =#addFav2 data-icon="star" data-rel="popup" data-role="button" data-position-to="window">Add to Favorites</a>
+	  
+	  
+	   <div data-role="popup" id="addFav2" data-rel="popup" onClick="addFavorites('Chris House','property2')" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" class="ui-corner-all">
+          <p>Property added to Favorites</p>
+		  <a href="#" data-rel="back" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-corner-all" data-role="button">Close</a>
+        </div>
+		
+		
+		<div data-role="popup" id="popupPhoto2" class="photopopup" data-overlay-theme="b" data-corners="false" data-tolerance="30,15">
+	      <a href="#" data-rel="back" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-corner-all" data-role="button">Close</a>
+          <h3>Chris House</h3>
+		  <img src="img/property2_1.JPG" alt="Chris House">
+           <p>Swipe for more pictures</p>		  
+		</div>
+      	
+	</div>	
+    <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+
+	 
+  </div>
+
+
+
+	  
+       
+</body>
+  
+	
+</html>

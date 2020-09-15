@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="ui-mobile">
+<head>
+	<meta charset="utf-8">
+	<title>UZ Hosting</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/themes/UZRenting.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="script/theme.js"></script>
+	<script src="script/swipe.js"></script>
+	<script src="script/storage.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<!-- Favorites Page -->
+   <div data-role="page" id="favorites">
+     <div data-role="header">
+	     <a href=#home data-icon="home" data-iconpos="left" data-transition="turn">Home</a>
+	    <h1>UZ Renting</h1>
+	 </div>
+     <div data-role="content" class="ui-content">
+	    <h2>Check your favorite properties</h2>
+		<div id="storedFav" class="ui-content"></div>
+		<a href=#deleteFav data-rel="popup" data-role="button" data-icon="delete" data-position-to="window" onClick="removeFav()" id="removeFav">Remove Favorites</a>
+	 <div data-role="popup" id="deleteFav" data-rel="popup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15" class="ui-corner-all">
+	   <p id="removeParagraph">Favorites Removed </p>
+	   <a href="#" data-rel="back" data-icon="delete" data-iconpos="notext" class="ui-btn-right ui-corner-all" data-role="button">Close</a>
+	 </div>	
+   </div>	
+	 
+     <div data-role="footer"  data-position="fixed" data-fullscreen="false">
+	  <div data-role="navbar" data-position="fixed" data-fullscreen="true">
+	   <ul>
+	   <li><a href="contact.html" data-prefetch data-icon="action" data-transition="slideup" class="ui-link ui-btn">Contact</a></li>
+	   <li><a href=#FAQ data-icon="info" class="ui-link ui-btn">FAQ</a></li>
+	   <li><a href=#login data-icon="user" class="ui-link ui-btn">Login</a></li>
+	   </ul> 		
+     </div>
+    </div>
+</div>
+
+</html>
